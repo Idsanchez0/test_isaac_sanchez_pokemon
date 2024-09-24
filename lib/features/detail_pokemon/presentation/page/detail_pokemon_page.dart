@@ -58,7 +58,7 @@ class _DetailPokemonPageState extends ConsumerState<DetailPokemonPage> {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: DetailHeader(
-        title: widget.name,
+        title: widget.name.toString(),
         id: int.parse(widget.id.toString()),
         ref: ref,
       ),
